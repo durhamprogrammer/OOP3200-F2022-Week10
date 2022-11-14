@@ -5,7 +5,8 @@ public class Main {
         Vector2 point2 = new Vector2(10.0f, 20.0f);
         Vector2 point3 = new Vector2();
 
+        point2.subtract(point1);
 
-        System.out.println(point1.toString());
+        System.out.println(point2.toString());
     }
 }
